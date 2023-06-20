@@ -7,10 +7,13 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.logo-text{
+    padding-left: 15%;
+}
+
 .custom-nav-links {
     display: flex;
     padding-left: 20%;
-    align-items: center;
 }
 
 .custom-nav-links .nav-link {
@@ -35,7 +38,7 @@
     color: #20a3f6;
 }
 
-.logo-text {
+.logo {
     color: #0077f5;
     font-size: 2rem;
 }

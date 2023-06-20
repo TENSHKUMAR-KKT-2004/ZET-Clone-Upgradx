@@ -1,10 +1,11 @@
 /* hero section */
 .hero-section {
-  margin-top: 70px;
+  padding-left:10%;
+  margin-top: 8%;
 }
 
 .hero-image {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -16,6 +17,10 @@
 .download-btn {
   width: 162px;
   height: 48px;
+}
+
+.left-sec{
+  padding: 10% 1%;
 }
 
 .hero-text {
@@ -201,3 +206,78 @@
   margin: 10px 0;
   color: black;
 }
+
+/* zet-effects-section */
+
+.background-color {
+  position: absolute;
+  margin-top: 45px;
+  padding-top: 20vw;
+  padding-bottom: 30vw;
+  width: 120vw;
+  height: 100%;
+  z-index: -2;
+  background-color: #145cc5;
+  transform: skew(0deg, -10deg);
+}
+
+.background-image{
+  position: absolute;
+  left:15%;
+  margin-top: 14.5%;
+  width: 70vw;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  background-color: #417fda;
+  transform: skew(0deg, -10deg);
+}
+
+.centered-img {
+  filter: grayscale(100%);
+}
+
+.effect-container{
+  position: relative;
+  top: 20vw;
+  width: 500px;
+  height: 400px;
+  padding-left: 50%;
+}
+
+.progress-bar {
+  width: 300px;
+  height: 10px;
+  background-color: #120324;
+}
+
+
+.progress {
+  height: 80%;
+  background-color: #fff;
+  width: 0;
+  transition: width 0.5s ease;
+}
+
+.slider {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.slide p{
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.slide.active {
+  display: block;
+}
+
