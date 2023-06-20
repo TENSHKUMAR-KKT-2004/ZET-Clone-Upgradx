@@ -1,21 +1,25 @@
 .custom-navbar {
-    padding: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 160px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .custom-nav-links {
+}
+
+.custom-nav-links {
     display: flex;
     padding-left: 20%;
     align-items: center;
-  }
-  
-  .custom-nav-links .nav-link {
+}
+
+.custom-nav-links .nav-link {
     text-decoration: none;
     color: #000000;
-    margin-left: 20px;
-  }
-  
-  .custom-download-button {
+    margin-left: 10px;
+}
+
+.custom-download-button {
     background: #2075f0;
     border: none;
     color: #ffffff;
@@ -23,16 +27,15 @@
     height: 34px;
     font-size: 16px;
     width: 120%;
-    margin-left: 20px;
-  }
+    margin-left: 10px;
+}
 
 .custom-nav-links .nav-link:active,
 .custom-nav-links .nav-link:focus {
-  color: #20a3f6;
+    color: #20a3f6;
 }
 
 .logo-text {
     color: #0077f5;
     font-size: 2rem;
-  }
-  
+}
