@@ -85,23 +85,24 @@ export default function Home() {
   <div className="container">
     <div className="row">
       <div className="col-md-6">
-        <div className="product-item">
-          <div className="product-card">
-            <div className="product-image">
-              <img className="product-img" src="credit-cards.jpg" alt="Credit Cards"/>
-            </div>
-            <div className="product-details">
-              <p className="product-title">CREDIT CARDS</p>
-              <p className="product-description">100% Contactless Application Process with Instant Approval From Top Banks.</p>
-            </div>
-          </div>
-        </div>
+      <div class="product-item">
+  <div class="product-card">
+    <div class="product-image">
+      <img class="product-img" src="/credit-card.png" alt="Credit Cards"/>
+    </div>
+    <div class="product-details">
+      <p class="product-title">CREDIT CARDS</p>
+      <p class="product-description">100% Contactless Application Process with Instant Approval From Top Banks.</p>
+    </div>
+  </div>
+</div>
+
       </div>
       <div className="col-md-6">
         <div className="product-item">
-          <div className="product-card">
+          <div className="product-card" style={{backgroundColor : '#fff1ca'}}>
             <div className="product-image">
-              <img className="product-img" src="loans.jpg" alt="Loans"/>
+              <img className="product-img" src="loan.png" alt="Loans"/>
             </div>
             <div className="product-details">
               <p className="product-title">LOANS</p>
@@ -116,7 +117,7 @@ export default function Home() {
         <div className="product-item">
           <div className="product-card">
             <div className="product-image">
-              <img className="product-img" src="pay-later.jpg" alt="Buy Now Pay Later"/>
+              <img className="product-img" src="buy-now-pay-later.png" alt="Buy Now Pay Later"/>
             </div>
             <div className="product-details">
               <p className="product-title">BUY NOW PAY LATER</p>
@@ -129,7 +130,7 @@ export default function Home() {
         <div className="product-item">
           <div className="product-card">
             <div className="product-image">
-              <img className="product-img" src="saving-accounts.jpg" alt="Saving Accounts"/>
+              <img className="product-img" src="savings-account.png" alt="Saving Accounts"/>
             </div>
             <div className="product-details">
               <p className="product-title">SAVING ACCOUNTS</p>
