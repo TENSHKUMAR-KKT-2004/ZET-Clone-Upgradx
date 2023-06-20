@@ -156,7 +156,7 @@ export default function Home() {
         <div className="effect-container">
 
           <div className="slider">
-            <h2 style={{color: 'white',textAlign: 'center',fontSize: '2.5rem'}}>THE ZET EFFECT</h2>
+            <h2 style={{color: 'white',textAlign: 'left',fontSize: '2.5rem'}}>THE ZET EFFECT</h2>
             <div className="slide active">
               <p>We helped customers in more than 50 cities to get their first financial product</p>
             </div>
